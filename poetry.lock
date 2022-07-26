@@ -1,0 +1,17 @@
+[[package]]
+name = "enter-leave"
+version = "1.0.5"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "de2fedfda7f5c6ad8a10d0008da9d9dcbecb2c55d093a5fc8c88e9e2ca1527f8"
+
+[metadata.files]
+enter-leave = [
+    {file = "enter-leave-1.0.5.tar.gz", hash = "sha256:2f6485197f214e5141c668180de29b7f145f4bc53c8e13eb0df959fb5c9a0e2b"},
+]
