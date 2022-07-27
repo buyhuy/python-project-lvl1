@@ -10,6 +10,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.8"
 enter-leave = "^1.0.5"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 

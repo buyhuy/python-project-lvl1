@@ -6,12 +6,24 @@ category = "main"
 optional = false
 python-versions = "*"
 
+[[package]]
+name = "prompt"
+version = "0.4.1"
+description = "Library for prompting input on the command line."
+category = "main"
+optional = false
+python-versions = ">=3.3"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "de2fedfda7f5c6ad8a10d0008da9d9dcbecb2c55d093a5fc8c88e9e2ca1527f8"
+content-hash = "74e587e8928f35ec437e4b111aa510c3a91653e19b3f4b630528b5a23cecb968"
 
 [metadata.files]
 enter-leave = [
     {file = "enter-leave-1.0.5.tar.gz", hash = "sha256:2f6485197f214e5141c668180de29b7f145f4bc53c8e13eb0df959fb5c9a0e2b"},
+]
+prompt = [
+    {file = "prompt-0.4.1-py3-none-any.whl", hash = "sha256:98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7"},
+    {file = "prompt-0.4.1.tar.gz", hash = "sha256:8a7694b88f8c65188a983315e72582bf42fcc251b97042be1d2a2ad1aa0ebe0e"},
 ]
