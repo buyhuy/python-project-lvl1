@@ -23,13 +23,12 @@ def is_even():
             count += 1
         else:
             print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}.")
-            break
-    if count == 3:
+            break   
         print(f'Congratulations, {name}!')
     
 
 def main():
-    play()
+    is_even()
 
 
 if __name__ == '__main__':
