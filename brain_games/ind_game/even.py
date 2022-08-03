@@ -4,11 +4,11 @@ from random import randint
 
 manual = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-def n_a():
+def q_a():
     '''quastion for brain-even'''
-    number = randint(1, 100)
-    answer = 'yes' if number % 2 == 0 else 'no'
-    return number, answer
+    quastion = randint(1, 100)
+    answer = 'yes' if quastion % 2 == 0 else 'no'
+    return quastion, answer
 
 
 def main():
