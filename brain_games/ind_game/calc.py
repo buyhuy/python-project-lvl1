@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
-from operator import add, sub, mul
+from operator import add, mul, sub
 from random import choice, randint
+
 
 manual = ('What is the result of the expression?')
 
+
 def q_a():
-    '''quastion for brain-calc'''
+    """task for brain-calc"""
     num1 = randint(1, 20)
     num2 = randint(1, 20)
     do = choice(['+', '-', '*'])

@@ -5,6 +5,7 @@ from brain_games.ind_game.calc import q_a, manual
 
 
 def main():
+    """script for brain-calc"""
     logic(manual, q_a)
 
 

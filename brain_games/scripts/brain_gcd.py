@@ -5,9 +5,9 @@ from brain_games.ind_game.gcd import manual, q_a
 
 
 def main():
+    """script for brain-gcd"""
     logic(manual, q_a)
 
 
 if __name__ == '__main__':
     main()
-

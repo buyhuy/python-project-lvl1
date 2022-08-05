@@ -4,8 +4,8 @@ from brain_games.general_logic import logic
 from brain_games.ind_game.progression import manual, q_a
 
 
-
 def main():
+    """script for brain-progression"""
     logic(manual, q_a)
 
 

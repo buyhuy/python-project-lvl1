@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-from random import choice, randint
+from random import randint
+
 
 manual = ('What number is missing in the progression?')
 
 
 def q_a():
-    '''quastion for brain-progression'''
+    """task for brain-progression"""
     start = randint(1, 20)
     progress = randint(1, 10)
     numbers = [start]
@@ -15,7 +16,6 @@ def q_a():
         numbers.append(start)
     index = randint(1, 9)
     numbers.pop(index)
-    #quastion = numbers.insert(index, '..')
     numbers[index:index] = ['..']
     quastion = numbers
     answer = numbers[index - 1] + progress
