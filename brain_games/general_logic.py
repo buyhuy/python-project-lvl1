@@ -2,7 +2,7 @@ import prompt
 
 
 def logic(manual, q_a):
-    '''general logic is here'''
+    '''general logic of project is here'''
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -10,7 +10,7 @@ def logic(manual, q_a):
     count = 0
     while count < 3:
         quastion, answer = q_a()
-        print(quastion)
+        print(*quastion) if type(quastion) == list else print(quastion)
         user_answer = prompt.string('Your answer: ')
         if user_answer == str(answer):
             print('Correct!')
