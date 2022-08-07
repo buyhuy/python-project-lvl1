@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "python-project-lvl1"
 version = "1.0.1"
-description = ""
+description = "first hexlet project"
+classifiers = [
+  "Development Status :: 5 - Production/Stable"
+]
 authors = ["Vadim Viktorov <viktorov.vadimka@gmail.com>"]
 packages = [
   { include = "brain_games" },
 ]
+repository = "https://github.com/buyhuy/python-project-lvl1.git"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -15,7 +19,7 @@ prompt = "^0.4.1"
 wemake-python-styleguide = "^0.16.1"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_game:main"
+brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
