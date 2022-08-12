@@ -10,15 +10,15 @@ def q_a():
     """task for brain-progression"""
     start = randint(1, 20)
     progress = randint(1, 10)
-    numbers = [start]
+    numbers = [str(start)]
     while len(numbers) <= 10:
         start += progress
-        numbers.append(start)
+        numbers.append(str(start))
     index = randint(1, 9)
     numbers.pop(index)
     numbers[index:index] = ['..']
-    quastion = numbers
-    answer = numbers[index - 1] + progress
+    quastion = (f'{" ".join(numbers)}')
+    answer = int(numbers[index - 1]) + progress
     return quastion, answer
 
 

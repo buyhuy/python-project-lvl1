@@ -10,8 +10,7 @@ def logic(manual, q_a):
     count = 0
     while count < 3:
         quastion, answer = q_a()
-        print('Quastion: ', end='')
-        print(*quastion) if type(quastion) == list else print(quastion)
+        print(f'Quastion: {quastion}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == str(answer):
             print('Correct!')
