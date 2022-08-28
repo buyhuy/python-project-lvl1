@@ -9,7 +9,7 @@ def logic(manual, q_a):
     print(manual)
     count = 0
     while count < 3:
-        quastion, answer = q_a()
+        question, answer = q_a()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == str(answer):
