@@ -2,7 +2,6 @@
 
 import prompt
 
-#(.)(.)
 
 def welcome_user():
     """greeting user"""
