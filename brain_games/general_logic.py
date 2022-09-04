@@ -16,7 +16,8 @@ def logic(manual, q_a):
             print('Correct!')
             count += 1
         elif user_answer != str(answer):
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{answer}'.\nLet's try again, {name}!")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{answer}'.\nLet's try again, {name}!")
             break
     if count == 3:
         print(f'Congratulations, {name}!')

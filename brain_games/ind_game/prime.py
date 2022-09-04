@@ -11,7 +11,7 @@ def q_a():
     quastion = randint(1, 100)
     for v in range(2, quastion // 2):
         if quastion % v == 0:
-            answer = 'no' 
+            answer = 'no'
             return quastion, answer
     answer = 'yes' if quastion != 1 else 'no'
     return quastion, answer

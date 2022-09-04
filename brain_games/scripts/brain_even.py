@@ -9,5 +9,5 @@ def main():
     logic(manual, q_a)
 
 
-if __name__  == '__main__':
+if __name__ == '__main__':
     main()
